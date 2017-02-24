@@ -1,0 +1,4 @@
+vhdtdtfi -lib work D:/alarm/alarm.v -lang verilog -prj alarm -o digi.spl -module digi -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 digi.spl D:/alarm/digi.sym 
+vhdtdtfi -lang verilog -prj alarm -o D:/alarm/digi.tfi -lib work D:/alarm//alarm.v -module digi -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+xst -intstyle ise -ifn "D:/alarm/digi.xst" -ofn "D:/alarm/digi.syr" 

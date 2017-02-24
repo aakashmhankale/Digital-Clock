@@ -1,0 +1,26 @@
+
+
+
+// Instantiate the module
+digi instance_name (
+    .clk(clk), 
+    .rst(rst), 
+    .set1(set1), 
+    .tg(tg), 
+    .inc(inc), 
+    .dec(dec), 
+    .CA(CA), 
+    .CB(CB), 
+    .CC(CC), 
+    .CD(CD), 
+    .CE(CE), 
+    .CF(CF), 
+    .CG(CG), 
+    .AN(AN), 
+    .DP(DP), 
+    .ld(ld), 
+    .PWM(PWM), 
+    .SD(SD)
+    );
+
+

@@ -1,0 +1,24 @@
+[Inputs]
+clk
+rst
+set1
+tg
+inc
+dec
+[Outputs]
+CA
+CB
+CC
+CD
+CE
+CF
+CG
+DP
+ld
+PWM
+SD
+=AN[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel digi
+
